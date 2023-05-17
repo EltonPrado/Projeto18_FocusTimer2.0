@@ -88,8 +88,6 @@ function pauseAudio() {
 
 buttonPlay.addEventListener('click', function() {
   buttonPlay.disabled = true;
-  buttonPlay.classList.add('hide')
-  buttonPause.classList.remove('hide')
   countdown()
 })
 
