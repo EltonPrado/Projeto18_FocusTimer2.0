@@ -120,7 +120,7 @@ forestOff.addEventListener('click', function() {
   forestOff.classList.toggle('hide')
   forestOn.classList.toggle('hide')
   pauseAudio()
-  buttonForest.play()
+  play()
   buttonForest.loop = true
 })
 
@@ -135,7 +135,7 @@ rainOff.addEventListener('click', function() {
   rainOff.classList.toggle('hide')
   rainOn.classList.toggle('hide')
   pauseAudio()
-  buttonRain.play()
+  play()
   buttonRain.loop = true
 })
 
@@ -150,7 +150,7 @@ coffeeOff.addEventListener('click', function() {
   coffeeOff.classList.toggle('hide')
   coffeeOn.classList.toggle('hide')
   pauseAudio()
-  buttonCoffee.play()
+  play()
   buttonCoffee.loop = true
 })
 
@@ -165,7 +165,7 @@ fireOff.addEventListener('click', function() {
   fireOff.classList.toggle('hide')
   fireOn.classList.toggle('hide')
   pauseAudio()
-  buttonFire.play()
+  play()
   buttonFire.loop = true
 })
 
