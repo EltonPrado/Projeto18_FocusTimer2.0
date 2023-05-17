@@ -33,7 +33,7 @@ informações básicas que o usuário deve seguir para usar o FocusTimer2.0 dark
 
 Quer conferir o FocusTimer2.0?
 
-[Visite o projeto online]()
+[Visite o projeto online](https://eltonprado.github.io/Projeto18_FocusTimer2.0/)
 
 <br>
 

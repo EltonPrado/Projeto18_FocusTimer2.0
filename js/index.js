@@ -87,6 +87,13 @@ function pauseAudio() {
   buttonFire.pause()
 }
 
+function play() {
+  buttonForest.play()
+  buttonRain.play()
+  buttonCoffee.play()
+  buttonFire.play()
+}
+
 buttonPlay.addEventListener('click', function() {
   buttonPlay.disabled = true;
   buttonPlay.classList.add('hide')
