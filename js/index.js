@@ -8,7 +8,6 @@ let fireOff = document.querySelector('.fireOff');
 let fireOn = document.querySelector('.fireOn');
 
 let buttonPlay = document.querySelector('.play');
-let buttonPause = document.querySelector('.pause');
 let buttonStop = document.querySelector('.stop');
 let buttonPlus = document.querySelector('.plus');
 let buttonMinus = document.querySelector('.minus');
@@ -87,13 +86,6 @@ function pauseAudio() {
   buttonFire.pause()
 }
 
-function play() {
-  buttonForest.play()
-  buttonRain.play()
-  buttonCoffee.play()
-  buttonFire.play()
-}
-
 buttonPlay.addEventListener('click', function() {
   buttonPlay.disabled = true;
   buttonPlay.classList.add('hide')
@@ -120,7 +112,7 @@ forestOff.addEventListener('click', function() {
   forestOff.classList.toggle('hide')
   forestOn.classList.toggle('hide')
   pauseAudio()
-  play()
+  buttonForest.play()
   buttonForest.loop = true
 })
 
@@ -135,7 +127,7 @@ rainOff.addEventListener('click', function() {
   rainOff.classList.toggle('hide')
   rainOn.classList.toggle('hide')
   pauseAudio()
-  play()
+  buttonRain.play()
   buttonRain.loop = true
 })
 
@@ -150,7 +142,7 @@ coffeeOff.addEventListener('click', function() {
   coffeeOff.classList.toggle('hide')
   coffeeOn.classList.toggle('hide')
   pauseAudio()
-  play()
+  buttonCoffee.play()
   buttonCoffee.loop = true
 })
 
@@ -165,7 +157,7 @@ fireOff.addEventListener('click', function() {
   fireOff.classList.toggle('hide')
   fireOn.classList.toggle('hide')
   pauseAudio()
-  play()
+  buttonFire.play()
   buttonFire.loop = true
 })
 
